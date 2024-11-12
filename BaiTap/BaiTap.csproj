@@ -132,7 +132,10 @@
     <Compile Include="Controllers\DanhMucController.cs" />
     <Compile Include="Controllers\HangSXController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\QuanLyDonHangController.cs" />
+=======
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     <Compile Include="Controllers\QuanLySanPhamController.cs" />
     <Compile Include="Controllers\QuanLyTonKhoController.cs" />
     <Compile Include="Controllers\TaiKhoanController.cs" />
@@ -143,8 +146,11 @@
     <Compile Include="Models\Admins.cs" />
     <Compile Include="Models\BaoCao.cs" />
     <Compile Include="Models\ChiTietDonHang.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\ChiTietPhieuNhap.cs" />
     <Compile Include="Models\ChiTietPhieuXuat.cs" />
+=======
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     <Compile Include="Models\ChiTietSanPham.cs" />
     <Compile Include="Models\DanhMuc.cs" />
     <Compile Include="Models\DonHang.cs" />
@@ -153,6 +159,7 @@
     <Compile Include="Models\KhuyenMai.cs" />
     <Compile Include="Models\LichSuDonHang.cs" />
     <Compile Include="Models\Model1.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\PhieuNhap.cs" />
     <Compile Include="Models\PhieuNhapKhoViewModel.cs" />
     <Compile Include="Models\PhieuXuat.cs" />
@@ -160,10 +167,27 @@
     <Compile Include="Models\SanPhamKhuyenMai.cs" />
     <Compile Include="Models\Sosanh.cs" />
     <Compile Include="Models\TaiKhoanKH.cs" />
+=======
+    <Compile Include="Models\PhieuNhapKhoViewModel.cs" />
+    <Compile Include="Models\SanPham.cs" />
+    <Compile Include="Models\SanPhamKhuyenMai.cs" />
+    <Compile Include="Models\Sosanh.cs" />
+    <Compile Include="Models\SuaThongtin.cs" />
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     <Compile Include="Models\TonKho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Content Include="..\..\..\..\..\..\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS03\MSSQL\DATA\QuanLyDuLieu.mdf">
+      <Link>App_Data\QuanLyDuLieu.mdf</Link>
+    </Content>
+    <Content Include="..\..\..\..\..\..\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS03\MSSQL\DATA\QuanLyDuLieu_log.ldf">
+      <Link>App_Data\QuanLyDuLieu_log.ldf</Link>
+      <DependentUpon>QuanLyDuLieu.mdf</DependentUpon>
+    </Content>
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     <Content Include="Content\assets\css\modaLocSP.css" />
     <Content Include="Content\assets\css\style.css" />
     <Content Include="Content\assets\img\apple-touch-icon.png" />
@@ -348,10 +372,13 @@
     <Content Include="Content\assets\vendor\chart.js\helpers.js.map" />
     <Content Include="Content\assets\vendor\echarts\echarts.common.js.map" />
     <Content Include="Content\assets\vendor\echarts\echarts.esm.js.map" />
+<<<<<<< HEAD
     <None Include="Properties\PublishProfiles\toan281104-001-site1 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\toan281104-001-site1 - FTP1.pubxml" />
     <None Include="Properties\PublishProfiles\toan281104-001-site1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\toan281104-001-site1 - Web Deploy1.pubxml" />
+=======
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -388,6 +415,7 @@
     <Content Include="Views\TimKiem\LocSP.cshtml" />
     <Content Include="Views\QuanLyTonKho\SanPhamTonKho.cshtml" />
     <Content Include="Views\QuanLyTonKho\NhapKho.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\QuanLySanPham\XemChiTiet.cshtml" />
     <Content Include="Views\Shared\GiaoDien.cshtml" />
     <Content Include="Views\QuanLyTonKho\KiemTra.cshtml" />
@@ -396,6 +424,14 @@
   <ItemGroup>
     <Folder Include="Views\QuanLyDonHang\" />
   </ItemGroup>
+=======
+    <Content Include="Views\QuanLyTonKho\nhap.cshtml" />
+    <Content Include="Views\QuanLyTonKho\nhap1.cshtml" />
+    <Content Include="Views\QuanLySanPham\XemChiTiet.cshtml" />
+    <Content Include="Views\Shared\GiaoDien.cshtml" />
+  </ItemGroup>
+  <ItemGroup />
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />

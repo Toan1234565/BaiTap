@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿
 using BaiTap.Models;
+=======
+﻿using BaiTap.Models;
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
@@ -12,16 +16,23 @@ using System.Xml.Linq;
 
 namespace BaiTap.Controllers
 {
+<<<<<<< HEAD
     [RoutePrefix("api/QuanLySanPham")]
     public class QuanLySanPhamController : Controller
     {
         // GET: QuanLySanPham
         
+=======
+    public class QuanLySanPhamController : Controller
+    {
+        // GET: QuanLySanPham
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
         private Model1 db = new Model1();
         public ActionResult Index()
         {
             return View();
         }
+<<<<<<< HEAD
 
         //public JsonResult GetSanPham()
         //{
@@ -32,6 +43,11 @@ namespace BaiTap.Controllers
         public ActionResult SanPham()
         {
             List<SanPham> ds = db.SanPham.ToList(); 
+=======
+        public ActionResult SanPham()
+        {
+            List<SanPham> ds = db.SanPham.ToList();
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
             return View(ds);
         }
         // cho phep cua sua san pham
@@ -124,10 +140,14 @@ namespace BaiTap.Controllers
             return View(chiTietSanPham);
            
         }
+<<<<<<< HEAD
         public ActionResult Index11()
         {
             return View();
         }
+=======
+
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
 
 
 

@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 ﻿
 using System;
 using BaiTap.Models;
+=======
+﻿using BaiTap.Models;
+using System;
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

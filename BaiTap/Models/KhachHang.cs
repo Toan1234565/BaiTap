@@ -14,8 +14,11 @@ namespace BaiTap.Models
         {
             DonHang = new HashSet<DonHang>();
             LichSuDonHang = new HashSet<LichSuDonHang>();
+<<<<<<< HEAD
             PhieuXuat = new HashSet<PhieuXuat>();
             TaiKhoanKH = new HashSet<TaiKhoanKH>();
+=======
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
         }
 
         public int KhachHangID { get; set; }
@@ -40,11 +43,14 @@ namespace BaiTap.Models
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<LichSuDonHang> LichSuDonHang { get; set; }
+<<<<<<< HEAD
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PhieuXuat> PhieuXuat { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TaiKhoanKH> TaiKhoanKH { get; set; }
+=======
+>>>>>>> cf20b19c201406323190693f59e183afae7e4007
     }
 }
